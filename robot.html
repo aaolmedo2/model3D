@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BRAIN 3D - Visualización de datos cerebrales en 3D."
+    />
+    <meta
+      name="keywords"
+      content="BRAIN 3D, visualización, datos cerebrales, 3D, neurociencia"
+    />
+    <meta name="itx.angelo" content="A-CORP" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>BRAIN 3D</title>
+  </head>
+
+  <body>
+    <img class="image-gradient" src="gradient.png" alt="gradient" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <header>
+        <h1 class="logo" data-aos="fade-down" data-aos-duration="1500">
+          BRAIN 3D
+        </h1>
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="">COMPANY</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="">FEATURES</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="">RESOURCES</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="">DOCS</a>
+        </nav>
+        <button
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          class="btn-signing"
+        >
+          SIGN IN
+        </button>
+      </header>
+
+      <main>
+        <div class="content">
+          <div class="tag-box">
+            <div class="tag">INTRUCING &wedbar;</div>
+          </div>
+          <h1>
+            ENAIL FOR <br />
+            DEVELOPERS
+          </h1>
+          <p class="description">
+            BRAIN 3D es una herramienta de visualización de datos cerebrales en
+            3D. <br />
+            Permite a los desarrolladores crear aplicaciones interactivas y
+            atractivas para la exploración de datos cerebrales.
+          </p>
+          <div class="buttons">
+            <a href="#" class="btn-get-started">Documentation &gt;</a>
+            <a href="#" class="btn-signing-main">Getstarted &gt;</a>
+          </div>
+        </div>
+      </main>
+
+      <spline-viewer
+        class="spline-viewer"
+        url="https://prod.spline.design/KdhEwvAVU2qN7vpE/scene.splinecode"
+      ></spline-viewer>
+    </div>
+
+    <!-- SPLINE MODEL 3D -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+    ></script>
+  </body>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

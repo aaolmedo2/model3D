@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BRAIN 3D - Visualización de datos cerebrales en 3D."
+    />
+    <meta
+      name="keywords"
+      content="BRAIN 3D, visualización, datos cerebrales, 3D, neurociencia"
+    />
+    <meta name="itx.angelo" content="A-CORP" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>MODEL 3D</title>
+  </head>
+
+  <body>
+    <img class="image-gradient" src="gradient.png" alt="gradient" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <header>
+        <h1 class="logo" data-aos="fade-down" data-aos-duration="1500">
+          MODEL 3D
+        </h1>
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="./robot.html"
+            >ROBOT 3D</a
+          >
+          <a data-aos="fade-down" data-aos-duration="2500" href="./brain.html"
+            >BRAIN 3D</a
+          >
+        </nav>
+        <button
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          class="btn-signing"
+        >
+          CONTACT US
+        </button>
+      </header>
+
+      <main>
+        <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          data-aos-duration="1500"
+          class="content"
+        >
+          <div class="tag-box">
+            <div class="tag">WELCOME</div>
+          </div>
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2000"
+          >
+            ENAIL FOR <br />
+            DEVELOPERS
+          </h1>
+          <p
+            class="description"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2500"
+          >
+            BRAIN 3D es una herramienta innovadora que permite la visualización
+            de datos cerebrales en 3D. Con esta tecnología, los investigadores y
+            profesionales de la salud pueden explorar y analizar datos
+            cerebrales de manera más efectiva, lo que puede conducir a avances
+            significativos en el campo de la neurociencia.
+          </p>
+          <div
+            class="buttons"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="3000"
+          >
+            <!-- <a href="#" class="btn-get-started">Documentation &gt;</a>
+            <a href="#" class="btn-signing-main">Getstarted &gt;</a> -->
+          </div>
+        </div>
+      </main>
+
+      <spline-viewer
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="1500"
+        class="spline-viewer"
+        loading-anim-type="spinner-big-light"
+        url="https://prod.spline.design/LhJI1kkkjjxp8uOf/scene.splinecode"
+      ></spline-viewer>
+    </div>
+
+    <!-- SPLINE MODEL 3D -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+    ></script>
+  </body>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
